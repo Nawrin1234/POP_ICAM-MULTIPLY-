@@ -19,7 +19,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
     <div className="text-center bg-white/95 backdrop-blur-md p-6 sm:p-10 rounded-3xl shadow-2xl max-w-md w-full transform transition-all hover:shadow-[0_20px_50px_rgba(58,62,145,0.2)] border-t-8 border-[#3a3e91]">
       <div className="mb-6 sm:mb-8 flex flex-col items-center">
         <Logo className="mb-6" />
-        <h1 className="text-4xl sm:text-5xl font-game text-[#3a3e91] mb-2 leading-tight drop-shadow-sm">Pop to Make </h1>
+        <h1 className="text-4xl sm:text-5xl font-game text-[#3a3e91] mb-2 leading-tight drop-shadow-sm">Pop to Make with Addition!</h1>
         <h1 className="text-3xl sm:text-4xl font-game text-[#3a3e91] mb-2 leading-tight drop-shadow-sm">with Multiplication!</h1>
         <p className="text-[#3a3e91] font-bold text-sm sm:text-base px-4 opacity-80">Master mental math and beat your high scores!</p>
       </div>
